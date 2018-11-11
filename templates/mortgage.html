@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="container">
+<br/><br/><br/>
+<form method="POST">
+    <label for="rate_percentage">Interest Rate (%): </label>
+    <input name="rate_percentage">
+    <br/>
+    <label for="number_of_years">Number of Years to Pay Off Mortgage: </label>
+    <input name = "number_of_years">
+    <br/>
+    <label for="principal_amount">Original Cost of House ($): </label>
+    <input name = "principal_amount">
+    <br/>
+    <input type="submit">
+</form>
+</div>
+{% endblock %}

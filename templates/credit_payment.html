@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="container">
+<br/><br/><br/>
+<form method="POST">
+    <label for="apr_percentage"> APR (%): </label>
+    <input name="apr_percentage">
+    <br/>
+    <label for="balance">Balance: </label>
+    <input name = "balance">
+    <br/>
+    <label for="monthly_payment">Monthly_payment: </label>
+    <input name = "monthly_payment">
+    <br/>
+    <input type="submit">
+</form>
+</div>
+{% endblock %}

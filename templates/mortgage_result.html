@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="jumbotron">
+      <div class="container">
+        <h1><b>The detailed analysis of your mortgage:</b></h1>
+        <p>Please take a minute to read this</p>
+      </div>
+  </div>
+  <div class = "container">
+    <p>Your monthly payment for a home mortgage given your interest rate, number of years, and principal amount is: <b> ${{userMonthly_Payment}} per month </b></p>
+    <p>The total interest you will pay over the course of your mortgage is: <b> ${{userTotal_Interest_Paid}}</b></p>
+    <p>Note: As the number of years you choose to take in order to pay off your mortgage increases, the total amound of interest paid also increases linearly.</b></p>
+  </div>
+
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="jumbotron">
+      <div class="container">
+        <h1><b>The detailed analysis of your credit card payments:</b></h1>
+        <p>Please take a minute to read this</p>
+      </div>
+  </div>
+  <div class = "container">
+    <p>The total time required to complete payment of your balance for your credit card given your APR, balance, and monthly payment amount is: <b> {{payofftime}} months</b></p>
+    <p>Note: As you increase the amount you pay each month, the total time required to complete payment of your balance decreases logarithmically.</b></p>
+    
+  </div>
+
+
+{% endblock %}

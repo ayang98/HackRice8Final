@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="jumbotron">
+    <div class="container">
+      <h1><b>Learn More About:</b></h1>
+      <p>Select an option below</p>
+    </div>
+</div>
+<br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+          <img class="img" src="https://raw.githubusercontent.com/dtang5/hackrice18/master/financial_lit/Pictures/retirement_image.jpg" width="210" height="160">
+          <h2>Retirement</h2>
+          <p>Takes in number of years you're planning on working, the amount you plan to contribute to your retirement account each month, and how much you've contributed already into account to calculate savings by retirement.</p>
+          <p><a class="btn btn-default" href="/retirement" role="button">Go! &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img" src="https://raw.githubusercontent.com/dtang5/hackrice18/master/financial_lit/Pictures/mortgage_image.jpg" width="210" height="160">
+          <h2>Mortgage</h2>
+          <p>This will give you some insight on what your monthly mortgage payment should be given an interest rate, number of years needed to pay the mortgage off, and a principal amount (original cost of the house). </p>
+          <p><a class="btn btn-default" href="/mortgage" role="button">Go! &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img" src="https://raw.githubusercontent.com/dtang5/hackrice18/master/financial_lit/Pictures/credit_card_image.jpg" width="230" height="160">
+          <h2>Credit Card Payment</h2>
+          <p>This will give you some insight on how many months it will take you to pay off your credit card balance given your APR, your balance, and the monthly payment amount.</p>
+          <p><a class="btn btn-default" href="/credit_payment" role="button">Go! &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+</div>
+{% endblock %}
